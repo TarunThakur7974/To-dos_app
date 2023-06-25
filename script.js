@@ -75,7 +75,7 @@ save.addEventListener('click', (e) => {// This function is run when the the todo
             <button class="buttn"><a href='//api.whatsapp.com/send?phone=+91${telInput.value}&text=Hii ${nameInput.value}'target="_blank"title="Share on whatsapp"><img src="whatsapp.png" alt="whatsapp image" /></a></button>
             </p>
 
-            <button type="button" style="float:right" class="btn btn-danger">Danger</button>
+            <button type="button" style="float:right" class="btn btn-danger">Delete</button>
         `;
 
         todoList.appendChild(todoItem);//todo data append here
