@@ -71,8 +71,8 @@ save.addEventListener('click', (e) => {// This function is run when the the todo
             <p>Name: ${nameInput.value}</p>
             <p>Email: ${emailInput.value}</p
             <p>Number: ${telInput.value}
-            <button class="buttn" title="call"><a href='tel:91${telInput.value}' target=_blank"><img src="call.jpg" alt="call image" /></a></button>
-            <button class="buttn"><a href='//api.whatsapp.com/send?phone=91${telInput.value}&text=Hii ${nameInput.value}'target="_blank"title="Share on whatsapp"><img src="whatsapp.png" alt="whatsapp image" /></a></button>
+            <button class="buttn" title="call"><a href='tel:+91${telInput.value}' target=_blank"><img src="call.jpg" alt="call image" /></a></button>
+            <button class="buttn"><a href='//api.whatsapp.com/send?phone=+91${telInput.value}&text=Hii ${nameInput.value}'target="_blank"title="Share on whatsapp"><img src="whatsapp.png" alt="whatsapp image" /></a></button>
             </p>
 
             <button type="button" style="float:right" class="btn btn-danger">Danger</button>
